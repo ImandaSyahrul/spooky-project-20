@@ -1105,8 +1105,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadPanel: {fileID: 1197571977}
-  quitPanel: {fileID: 430763905}
-  settingsPanel: {fileID: 1439730949}
+  quitPanel: {fileID: 735119940}
+  settingsPanel: {fileID: 2084010088}
   buttons:
   - {fileID: 1109387983}
   - {fileID: 1274393144}
