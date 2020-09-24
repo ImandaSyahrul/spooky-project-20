@@ -2,17 +2,64 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
-
+public enum MainMenu_Button
+{
+    Start,
+    Continue,
+    Setting,
+    Quit
+}
 public class MainMenuTransition : MonoBehaviour
 {
     public DOTweenAnimation SettingPanel;
     public DOTweenAnimation LoadPanel;
     public DOTweenAnimation StartPanel;
+
+    public Button_Script Button_Start;
+    public Button_Script Button_Continue;
+    public Button_Script Button_Setting;
+    public Button_Script Button_Quit;
     public GameObject Image_UI;
+    public MainMenu_Button buttonMana;
     // Start is called before the first frame update
     void Start()
     {
         
+    }
+
+    public void ClickButton_Start()
+    {
+        In_AnimationStart();
+            Button_Start.Panah_Nyala();
+            Button_Setting.Panah_Mati();
+            Button_Continue.Panah_Mati();
+            Button_Quit.Panah_Mati();
+    }
+
+    public void ClickButton_Setting()
+    {
+            In_AnimationSetting();
+            Button_Start.Panah_Mati();
+            Button_Continue.Panah_Mati();
+            Button_Setting.Panah_Nyala();
+            Button_Quit.Panah_Mati();
+    }
+
+    public void ClickButton_Continue()
+    {
+            In_AnimationLoad();
+            Button_Start.Panah_Mati();
+            Button_Continue.Panah_Nyala();
+            Button_Setting.Panah_Mati();
+            Button_Quit.Panah_Mati();
+    }
+
+    public void ClickButton_Quit()
+    {
+            Button_Start.Panah_Mati();
+            Button_Continue.Panah_Mati();
+            Button_Setting.Panah_Mati();
+            Button_Quit.Panah_Nyala();
     }
 
     public void In_AnimationSetting()
