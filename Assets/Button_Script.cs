@@ -19,15 +19,15 @@ public class Button_Script : MonoBehaviour
     public void Panah_Nyala()
     {
         Panah_Valid = true;
-        Panah_1.GetComponent<Image>().color = new Color(0,0,0,255);
-        Panah_2.GetComponent<Image>().color = new Color(0,0,0,255);
+        Panah_1.GetComponent<Image>().color = new Color(255,255,255,255);
+        Panah_2.GetComponent<Image>().color = new Color(255,255,255,255);
     }
 
     public void Panah_Mati()
     {
         Panah_Valid = false;
-        Panah_1.GetComponent<Image>().color = new Color(0,0,0,0);
-        Panah_2.GetComponent<Image>().color = new Color(0,0,0,0);
+        Panah_1.GetComponent<Image>().color = new Color(255,255,255,0);
+        Panah_2.GetComponent<Image>().color = new Color(255,255,255,0);
     }
 
     // Update is called once per frame
