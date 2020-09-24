@@ -23,6 +23,12 @@ public class CameraController : MonoBehaviour
         volume.weight = 1;
     }
 
+    public void GoOutside()
+    {
+        transform.position = new Vector3(214.86f, 10.04f, -16.37f);
+        transform.Rotate(new Vector3(-27.119f, -157.733f, -7.924f));
+    }
+
     public void GoToWindow()
     {
         transform.position = new Vector3(218.668f, 7.584f, -36.413f);

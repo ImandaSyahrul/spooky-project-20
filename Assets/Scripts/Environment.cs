@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Environment : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject rain;
+    public GameObject[] cgs;
+    
+    public void EnableRain()
     {
-        
+        rain.SetActive(true);
+    }
+    
+    public void EnableFirstCG()
+    {
+        cgs[0].SetActive(true);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
