@@ -30,6 +30,10 @@ public class MainMenuTransition : MonoBehaviour
     public void ClickButton_Start()
     {
         In_AnimationStart();
+    }
+
+    public void Hover_Button_Start()
+    {
             Button_Start.Panah_Nyala();
             Button_Setting.Panah_Mati();
             Button_Continue.Panah_Mati();
@@ -39,6 +43,10 @@ public class MainMenuTransition : MonoBehaviour
     public void ClickButton_Setting()
     {
             In_AnimationSetting();
+    }
+
+    public void HoverButton_Setting()
+    {
             Button_Start.Panah_Mati();
             Button_Continue.Panah_Mati();
             Button_Setting.Panah_Nyala();
@@ -48,18 +56,30 @@ public class MainMenuTransition : MonoBehaviour
     public void ClickButton_Continue()
     {
             In_AnimationLoad();
+    }
+
+    public void HoverButton_Continue()
+    {
             Button_Start.Panah_Mati();
             Button_Continue.Panah_Nyala();
             Button_Setting.Panah_Mati();
             Button_Quit.Panah_Mati();
     }
 
-    public void ClickButton_Quit()
+    public void HoverButton_Quit()
     {
             Button_Start.Panah_Mati();
             Button_Continue.Panah_Mati();
             Button_Setting.Panah_Mati();
             Button_Quit.Panah_Nyala();
+    }
+
+    public void RestartStateHover()
+    {
+         Button_Start.Panah_Mati();
+         Button_Continue.Panah_Mati();
+         Button_Setting.Panah_Mati();
+         Button_Quit.Panah_Mati();
     }
 
     public void In_AnimationSetting()
