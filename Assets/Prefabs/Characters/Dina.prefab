@@ -52,6 +52,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ce8dcf0ff92595b4990777eb6460ab45, type: 3}
   - {fileID: 21300000, guid: 58ee315963238f54ab9e1959041fe408, type: 3}
   - {fileID: 21300000, guid: 7285a0564f128034aa31eafb371f3d43, type: 3}
+  - {fileID: 21300000, guid: e4345049a63d0d14db54f8a3b1f8433a, type: 3}
   - {fileID: 21300000, guid: 3f814972be3780f4587f4ca0dbaf9209, type: 3}
   - {fileID: 21300000, guid: 3cf7332f224039a45956346d7a25e4d2, type: 3}
   - {fileID: 21300000, guid: 62d590159973d8248870b149f321f9db, type: 3}
