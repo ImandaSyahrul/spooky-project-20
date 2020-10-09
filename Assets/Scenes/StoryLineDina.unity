@@ -26609,6 +26609,9 @@ GameObject:
   - component: {fileID: 882112503}
   - component: {fileID: 882112502}
   - component: {fileID: 882112499}
+  - component: {fileID: 882112506}
+  - component: {fileID: 882112505}
+  - component: {fileID: 882112504}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -26729,7 +26732,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 882112433}
   selectedCommands:
-  - {fileID: 882112499}
+  - {fileID: 882112504}
   variables: []
   description: 
   stepPause: 0
@@ -28615,9 +28618,12 @@ MonoBehaviour:
   - {fileID: 882112458}
   - {fileID: 882112501}
   - {fileID: 882112503}
+  - {fileID: 882112504}
   - {fileID: 882112457}
+  - {fileID: 882112505}
   - {fileID: 882112500}
   - {fileID: 882112456}
+  - {fileID: 882112506}
   - {fileID: 882112502}
   - {fileID: 882112499}
   suppressAllAutoSelections: 0
@@ -30257,7 +30263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 144
   indentLevel: 0
-  storyText: GHOST IS NOT REAL, WAKE UP!
+  storyText: GHOSTS ARE NOT REAL, WAKE UP!
   description: 
   character: {fileID: 126333180}
   portrait: {fileID: 0}
@@ -30343,6 +30349,83 @@ MonoBehaviour:
   character: {fileID: 126333180}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: a4abf4a0d367c5649a6e420a83b0a041, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1430505390}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &882112504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 616cd37e21c7645c58a89edf5abee56f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 151
+  indentLevel: 0
+  duration: 0.5
+  amount: {x: 1, y: 1}
+  waitUntilFinished: 0
+--- !u!114 &882112505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 150
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 126333180}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 249f1ea843667c741b5d1099898294e5, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1430505390}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &882112506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 149
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 126333180}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e42b4b51fd4c48d49b877cdd57fcd75a, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1430505390}

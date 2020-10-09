@@ -48,6 +48,8 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: a4abf4a0d367c5649a6e420a83b0a041, type: 3}
+  - {fileID: 21300000, guid: e42b4b51fd4c48d49b877cdd57fcd75a, type: 3}
+  - {fileID: 21300000, guid: 249f1ea843667c741b5d1099898294e5, type: 3}
   - {fileID: 21300000, guid: 2aab693f303c0fb4b9e57ae3b10cee02, type: 3}
   - {fileID: 21300000, guid: 753777613b49654449d3fc06a69ad6ab, type: 3}
   - {fileID: 21300000, guid: ce8dcf0ff92595b4990777eb6460ab45, type: 3}
