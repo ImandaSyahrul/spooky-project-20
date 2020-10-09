@@ -26650,7 +26650,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 144
     y: 117.93617
-    width: 80.13698
+    width: 82.8358
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26718,11 +26718,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 75.745, y: -51.5975}
+  scrollPos: {x: 103.7147, y: -30.7429}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.73000026
+  zoom: 0.6700003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -26730,9 +26730,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 882112433}
+  - {fileID: 882112432}
   selectedCommands:
-  - {fileID: 882112504}
+  - {fileID: 882112447}
   variables: []
   description: 
   stepPause: 0
@@ -27614,7 +27614,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 192.10645
     y: 290.383
-    width: 125.34244
+    width: 130.59698
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27643,7 +27643,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 349.5529
     y: 186.12766
-    width: 106.16437
+    width: 109.70146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27816,7 +27816,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 151.10115
     y: 470.32336
-    width: 102.05478
+    width: 105.223854
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28224,7 +28224,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 395.07483
     y: 349.64902
-    width: 103.42464
+    width: 106.71639
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28504,7 +28504,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 797.3569
     y: 334.42603
-    width: 102.05478
+    width: 103.73132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28537,7 +28537,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 671.7404
     y: 461.93295
-    width: 102.05478
+    width: 103.73132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28585,7 +28585,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 429.11707
     y: 514.5426
-    width: 100.68491
+    width: 103.73132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29307,7 +29307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 100
   indentLevel: 0
-  storyText: ...is there actually a ghost in this apartment??
+  storyText: (Is there actually a ghost in this apartment?)
   description: 
   character: {fileID: 126333180}
   portrait: {fileID: 0}
@@ -30290,7 +30290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 143
   indentLevel: 0
-  storyText: "Is it\u2026\u2026 "
+  storyText: Is it...
   description: 
   character: {fileID: 126333180}
   portrait: {fileID: 0}
