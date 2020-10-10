@@ -40,4 +40,16 @@ public class CameraController : MonoBehaviour
         transform.position = new Vector3(220.966f, 7.348f, -35.874f);
         transform.rotation = new Quaternion(0f, 10f, 0f, 0f);
     }
+
+    public void GoToFrontTV()
+    {
+        transform.position = new Vector3(220.966f, 7.348f, -38f);
+        transform.Rotate( new Vector3(0f, 180f, 0f));
+    }
+
+    public void GoToComputer()
+    {
+        transform.position = new Vector3(217.775f, 7.269f, -38.161f);
+        transform.Rotate( new Vector3(0f, -62.399f, 0f));
+    }
 }
