@@ -6,8 +6,9 @@ public class Environment : MonoBehaviour
 {
     public GameObject rain;
     public GameObject[] cgs;
-    
-    public void EnableRain()
+
+	#region methods
+	public void EnableRain()
     {
         rain.SetActive(true);
     }
@@ -16,5 +17,11 @@ public class Environment : MonoBehaviour
     {
         cgs[0].SetActive(true);
     }
+
+    public void DisableFirstCG()
+    {
+        cgs[0].SetActive(false);
+    }
+	#endregion
 
 }
