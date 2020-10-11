@@ -12056,6 +12056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Figure_Cowgirl_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1667013294580024, guid: 4cdbf04926831264599645c7bd8e0aba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4077982357797564, guid: 4cdbf04926831264599645c7bd8e0aba, type: 3}
       propertyPath: m_LocalPosition.x
       value: 215.954
