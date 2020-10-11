@@ -74,5 +74,10 @@ public class TVMat_Controller : MonoBehaviour
         }
     }
 
+    public void Test()
+    {
+        Debug.Log("Test");
+    }
+
     // Update is called once per frame
 }
