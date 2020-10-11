@@ -6,6 +6,7 @@ public class Environment : MonoBehaviour
 {
     public GameObject rain;
     public GameObject[] cgs;
+    public GameObject qteHUD;
 
 	#region methods
 	public void EnableRain()
@@ -34,4 +35,8 @@ public class Environment : MonoBehaviour
     }
     #endregion
 
+    public void ActiveFirstQTE()
+    {
+        qteHUD.SetActive(true);
+    }
 }
