@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using Fungus;
 public class GameController : MonoBehaviour
 {
     public GameObject buttonObject;
     public TextMeshProUGUI text;
     public GameObject jumpscarePanel;
+    public AudioClip buttonSound;
+    public AudioClip screamSound;
+    AudioSource audioSource;
     Vector3 idScale;
     int round = 10;
+    private void Awake() {
+        audioSource = GetComponent<AudioSource>();
+    }
     void Start()
     {
         jumpscarePanel.SetActive(false);
@@ -19,12 +24,10 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
-    void ChangeText()
-    {
-        switch (round)
-        {
+    void ChangeText(){
+        switch(round){
             case 10:
                 text.SetText("Click the Button for a prize!");
                 break;
@@ -60,29 +63,21 @@ public class GameController : MonoBehaviour
                 break;
         }
     }
-    public void ButtonClicked()
-    {
+    public void ButtonClicked(){
         round--;
-        if (round > 0)
-        {
+        if(round > 0){
+            audioSource.PlayOneShot(buttonSound, 1);
             ChangeText();
-            Vector3 newPos = new Vector3(Random.Range(-6f, 6f), Random.Range(-3.1f, 1.1f), 1f);
-            Vector3 newScale = new Vector3(buttonObject.transform.localScale.x / 1.1f, buttonObject.transform.localScale.y / 1.1f, 0f);
-            buttonObject.transform.position = newPos;
-            buttonObject.transform.localScale = newScale;
-        }
-        else
-        {
+        }else{
+            audioSource.PlayOneShot(screamSound, 1);
             StartCoroutine(Jumpscare());
         }
     }
-    IEnumerator Jumpscare()
-    {
-        yield return null;
+    IEnumerator Jumpscare(){
+        yield return new WaitForSeconds(.3f);
         jumpscarePanel.SetActive(true);
         float time = 5f;
-        while (time > 0f)
-        {
+        while(time > 0f){
             yield return new WaitForSeconds(1f);
             time -= 1f;
         }
@@ -91,6 +86,5 @@ public class GameController : MonoBehaviour
         ChangeText();
         buttonObject.transform.localScale = idScale;
         jumpscarePanel.SetActive(false);
-        Flowchart.BroadcastFungusMessage("clear");
     }
 }
