@@ -49,7 +49,7 @@ public class CameraController : MonoBehaviour
 
     public void GoToComputer()
     {
-        transform.position = new Vector3(217.775f, 7.269f, -38.161f);
+        transform.position = new Vector3(217.177f, 7.269f, -38.161f);
         transform.Rotate( new Vector3(0f, -62.399f, 0f));
     }
 }
