@@ -21,7 +21,19 @@ public class TVMat_Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        TurnOff_TV();
+        if(isitDina)
+        {
+            TurnOff_TV();
+        }
+        else if(!isitDina)
+        {
+            StageAwal_Adin();
+        }
+    }
+
+    public void StageAwal_Adin()
+    {
+        TV_Material.shader = TV_Korea;
     }
 
     public void TurnOff_TV()
@@ -44,6 +56,7 @@ public class TVMat_Controller : MonoBehaviour
         }
     }
 
+    //Ini buat Dina
     public IEnumerator ClickRemoteTV_On()
     {
         if(valid_Click)
@@ -57,6 +70,7 @@ public class TVMat_Controller : MonoBehaviour
         }
     }
 
+    //Ini buat Adin
     public IEnumerator ClickRemoteTV_Off()
     {
         valid_Click = false;
