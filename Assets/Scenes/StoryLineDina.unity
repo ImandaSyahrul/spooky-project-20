@@ -16456,7 +16456,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 79
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &592264111
 PrefabInstance:
@@ -23572,7 +23572,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 76
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &790666020
 PrefabInstance:
@@ -26701,7 +26701,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 259.3658
     y: 121.21486
-    width: 79.50818
+    width: 80.909065
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26724,13 +26724,13 @@ MonoBehaviour:
   - {fileID: 882112372}
   - {fileID: 882112362}
   - {fileID: 882112371}
-  - {fileID: 882112380}
   - {fileID: 882112369}
   - {fileID: 882112401}
   - {fileID: 882112537}
   - {fileID: 882112404}
   - {fileID: 882112400}
   - {fileID: 882112402}
+  - {fileID: 882112380}
   - {fileID: 882112374}
   - {fileID: 882112540}
   - {fileID: 882112538}
@@ -26777,11 +26777,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -141.80615, y: 44.219513}
+  scrollPos: {x: -83.37422, y: 72.711655}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 283
-  zoom: 0.6100004
+  zoom: 0.5500004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -26789,9 +26789,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 882112415}
+  - {fileID: 882112359}
   selectedCommands:
-  - {fileID: 882112552}
+  - {fileID: 882112362}
   variables: []
   description: 
   stepPause: 0
@@ -26831,8 +26831,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: "\u201CNow considering that it\u2019s completed, this is my time to
-    let off some steam by watching drama of course~\u201D"
+  storyText: "Now considering that it\u2019s completed, this is my time to let off
+    some steam by watching drama of course!"
   description: 
   character: {fileID: 126333180}
   portrait: {fileID: 0}
@@ -26889,8 +26889,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: "\u201CHaa, that\u2019s so relieving to know that I can to think about
-    myself and my own agenda today.\u201D"
+  storyText: "Haa, that\u2019s so relieving to know that I can to think about myself
+    and my own agenda today."
   description: 
   character: {fileID: 126333180}
   portrait: {fileID: 0}
@@ -27031,7 +27031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "\u201Cand it\u2019s finally closed deal yesterday.\u201D"
+  storyText: "and it\u2019s finally closed deal yesterday."
   description: 
   character: {fileID: 126333180}
   portrait: {fileID: 0}
@@ -27175,7 +27175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: "\u201CThat big client really makes me not sleeping for days...\u201D"
+  storyText: That big client really makes me not sleeping for days...
   description: 
   character: {fileID: 126333180}
   portrait: {fileID: 0}
@@ -27893,7 +27893,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 888.41394
     y: 434.5026
-    width: 100.81964
+    width: 104.54541
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28076,7 +28076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 155
   indentLevel: 0
-  storyText: "\u201CWhat the hell is happening!?\u201D"
+  storyText: What the hell is happening!?
   description: 
   character: {fileID: 126333180}
   portrait: {fileID: 0}
@@ -28103,7 +28103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 154
   indentLevel: 0
-  storyText: "\u201CWhy won't it turn on?!\u201D"
+  storyText: Why won't it turn on?!
   description: 
   character: {fileID: 126333180}
   portrait: {fileID: 0}
@@ -28130,7 +28130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 153
   indentLevel: 0
-  storyText: "\u201CWhat!?\u201D"
+  storyText: What!?
   description: 
   character: {fileID: 126333180}
   portrait: {fileID: 0}
@@ -28157,9 +28157,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 251.50906
+    x: 249.86972
     y: 245.66818
-    width: 95.90161
+    width: 99.090866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28645,7 +28645,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1010.7898
     y: 492.6349
-    width: 99.1803
+    width: 102.727234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28678,7 +28678,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1010.54626
     y: 436.55978
-    width: 99.1803
+    width: 102.727234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28726,7 +28726,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 888.8182
     y: 492.15454
-    width: 97.540955
+    width: 102.727234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -31016,7 +31016,7 @@ MonoBehaviour:
   messageOLD: 
 --- !u!114 &882112525
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31469,7 +31469,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &882112544
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31486,7 +31486,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &882112545
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31503,7 +31503,7 @@ MonoBehaviour:
   waitUntilFinished: 1
 --- !u!114 &882112546
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31520,7 +31520,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &882112547
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31537,7 +31537,7 @@ MonoBehaviour:
   waitUntilFinished: 1
 --- !u!114 &882112548
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31551,7 +31551,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &882112549
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31568,7 +31568,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &882112550
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31598,7 +31598,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &882112551
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31628,7 +31628,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &882112552
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31658,7 +31658,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &882112553
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31685,7 +31685,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &882112554
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31712,7 +31712,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &882112555
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31732,7 +31732,7 @@ MonoBehaviour:
   fadeTweenType: 4
 --- !u!114 &882112556
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -62757,7 +62757,7 @@ Transform:
   - {fileID: 1733131910}
   - {fileID: 1403402670}
   m_Father: {fileID: 0}
-  m_RootOrder: 77
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1933038264 stripped
 Transform:
@@ -68168,7 +68168,7 @@ Transform:
   m_LocalScale: {x: 0.10974486, y: 0.10974486, z: 0.10974486}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 78
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2102639455
 PrefabInstance:
@@ -69439,75 +69439,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9384e4f7925dd0d47a003b910f826bf8, type: 3}
---- !u!1001 &872883105663851237
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5503006700705784256, guid: 85f09d5dc18d2e64a8637132df05695e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5503006700705784256, guid: 85f09d5dc18d2e64a8637132df05695e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5503006700705784256, guid: 85f09d5dc18d2e64a8637132df05695e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5503006700705784256, guid: 85f09d5dc18d2e64a8637132df05695e,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5503006700705784256, guid: 85f09d5dc18d2e64a8637132df05695e,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5503006700705784256, guid: 85f09d5dc18d2e64a8637132df05695e,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5503006700705784256, guid: 85f09d5dc18d2e64a8637132df05695e,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5503006700705784256, guid: 85f09d5dc18d2e64a8637132df05695e,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 74
-      objectReference: {fileID: 0}
-    - target: {fileID: 5503006700705784256, guid: 85f09d5dc18d2e64a8637132df05695e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5503006700705784256, guid: 85f09d5dc18d2e64a8637132df05695e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5503006700705784256, guid: 85f09d5dc18d2e64a8637132df05695e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7543115835422474015, guid: 85f09d5dc18d2e64a8637132df05695e,
-        type: 3}
-      propertyPath: m_Name
-      value: Adin
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 85f09d5dc18d2e64a8637132df05695e, type: 3}
 --- !u!1001 &2769152839582563519
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69553,7 +69484,7 @@ PrefabInstance:
     - target: {fileID: 2769152840918006512, guid: 56eb6bfa3adea2a44bf079217b9095a1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 75
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 2769152840918006512, guid: 56eb6bfa3adea2a44bf079217b9095a1,
         type: 3}
@@ -69764,24 +69695,9 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1107210415531007397, guid: b8aded14fa833874fb321ae3a3b47e04,
+    - target: {fileID: 1713979748567530428, guid: b8aded14fa833874fb321ae3a3b47e04,
         type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1107210415531007397, guid: b8aded14fa833874fb321ae3a3b47e04,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1107210415531007397, guid: b8aded14fa833874fb321ae3a3b47e04,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1107210415531007397, guid: b8aded14fa833874fb321ae3a3b47e04,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
+      propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1713979749506735092, guid: b8aded14fa833874fb321ae3a3b47e04,
@@ -69844,65 +69760,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2859883801166888283, guid: b8aded14fa833874fb321ae3a3b47e04,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2859883801166888283, guid: b8aded14fa833874fb321ae3a3b47e04,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2859883801166888283, guid: b8aded14fa833874fb321ae3a3b47e04,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2859883801166888283, guid: b8aded14fa833874fb321ae3a3b47e04,
+    - target: {fileID: 1713979749648624487, guid: b8aded14fa833874fb321ae3a3b47e04,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -193.75
       objectReference: {fileID: 0}
-    - target: {fileID: 5424866182368942889, guid: b8aded14fa833874fb321ae3a3b47e04,
+    - target: {fileID: 1713979750024837564, guid: b8aded14fa833874fb321ae3a3b47e04,
         type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
+      propertyPath: m_SizeDelta.y
+      value: -203.53925
       objectReference: {fileID: 0}
-    - target: {fileID: 5424866182368942889, guid: b8aded14fa833874fb321ae3a3b47e04,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5424866182368942889, guid: b8aded14fa833874fb321ae3a3b47e04,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5424866182368942889, guid: b8aded14fa833874fb321ae3a3b47e04,
+    - target: {fileID: 1713979750024837564, guid: b8aded14fa833874fb321ae3a3b47e04,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8721238075837532997, guid: b8aded14fa833874fb321ae3a3b47e04,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8721238075837532997, guid: b8aded14fa833874fb321ae3a3b47e04,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8721238075837532997, guid: b8aded14fa833874fb321ae3a3b47e04,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8721238075837532997, guid: b8aded14fa833874fb321ae3a3b47e04,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -36
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8aded14fa833874fb321ae3a3b47e04, type: 3}
