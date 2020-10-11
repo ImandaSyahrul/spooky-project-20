@@ -15247,6 +15247,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
+--- !u!1 &555120240 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1643067986726602, guid: 8ca5112c4b6b4d9458228ef043c3ea50,
+    type: 3}
+  m_PrefabInstance: {fileID: 668109691}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &555120241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555120240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a104b6027d6404a886767e8b72c50a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChannelTV:
+  - {fileID: -6465566751694194690, guid: 08446930f8b1bc44c8c4e71954e90bda, type: 3}
+  - {fileID: -6465566751694194690, guid: 0ebacfa78431ee54097bbb450b1e54d1, type: 3}
+  - {fileID: -6465566751694194690, guid: 24461929d1cb1ae47b82faa6acf6184c, type: 3}
+  - {fileID: -6465566751694194690, guid: 7b64036d205811f448b3548516562548, type: 3}
+  TV_Korea: {fileID: -6465566751694194690, guid: 691335bda295bb441abfb23be0148224,
+    type: 3}
+  TV_Mati: {fileID: -6465566751694194690, guid: 61554edba058b3442900b74021c5440e,
+    type: 3}
+  firstTimeTurnOn: 1
+  TimerLength: 2
+  valid_Click: 1
+  isitDina: 1
+  TV_Material: {fileID: 2100000, guid: 29ed7f5e04037f04f9b3331b9c12f138, type: 2}
 --- !u!1001 &555700978
 PrefabInstance:
   m_ObjectHideFlags: 0
