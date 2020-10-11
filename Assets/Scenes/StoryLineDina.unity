@@ -71355,6 +71355,11 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1713979748730366122, guid: b8aded14fa833874fb321ae3a3b47e04,
+        type: 3}
+      propertyPath: audioMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1713979748730366123, guid: b8aded14fa833874fb321ae3a3b47e04,
         type: 3}
       propertyPath: writingSpeed
