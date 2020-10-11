@@ -39,4 +39,9 @@ public class Environment : MonoBehaviour
     {
         qteHUD.SetActive(true);
     }
+
+    public void DeactiveFirstQTE()
+    {
+        qteHUD.SetActive(false);
+    }
 }

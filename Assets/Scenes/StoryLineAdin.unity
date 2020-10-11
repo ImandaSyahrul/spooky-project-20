@@ -26860,6 +26860,7 @@ GameObject:
   - component: {fileID: 882112436}
   - component: {fileID: 882112439}
   - component: {fileID: 882112438}
+  - component: {fileID: 882112440}
   m_Layer: 0
   m_Name: Flowchart Adin
   m_TagString: Untagged
@@ -26963,9 +26964,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 882112398}
-  selectedCommands:
-  - {fileID: 882112439}
+  - {fileID: 882112430}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -28666,6 +28666,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 882112428}
   - {fileID: 882112431}
+  - {fileID: 882112440}
   - {fileID: 882112426}
   - {fileID: 882112425}
   - {fileID: 882112434}
@@ -28882,6 +28883,23 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &882112440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 135
+  indentLevel: 0
+  targetObject: {fileID: 589921462}
+  methodName: DeactiveFirstQTE
+  delay: 0
 --- !u!4 &882962739 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 489384, guid: 1ac8b9099f0c47e41a84ef1f2e41988c,
@@ -67031,7 +67049,7 @@ Canvas:
   m_GameObject: {fileID: 2141882080}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 379649753}
   m_PlaneDistance: 1
   m_PixelPerfect: 0
