@@ -52,4 +52,10 @@ public class CameraController : MonoBehaviour
         transform.position = new Vector3(217.177f, 7.269f, -38.161f);
         transform.Rotate( new Vector3(0f, -62.399f, 0f));
     }
+
+    public void GoToComputerAdin()
+    {
+        transform.position = new Vector3(216.542f, 7.267f, -37.674f);
+        transform.Rotate(new Vector3(16.274f, -85.717f, 2.538f));
+    }
 }
