@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PolygonOffice_Material_Screen_01
-  m_Shader: {fileID: -6465566751694194690, guid: 24461929d1cb1ae47b82faa6acf6184c,
+  m_Shader: {fileID: -6465566751694194690, guid: 61554edba058b3442900b74021c5440e,
     type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
@@ -90,6 +90,7 @@ Material:
     - _Parallax: 0.02
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _SampleGI: 0
     - _Smoothness: 0.106
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
