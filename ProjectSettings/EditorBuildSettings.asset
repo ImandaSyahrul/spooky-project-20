@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StoryLineDina.unity
     guid: b663e27b4880c97478f1cdf68617b5e9
+  - enabled: 1
+    path: Assets/Scenes/StoryLineAdin.unity
+    guid: 2f5073c865de23944bf332b1c0db693f
   m_configObjects: {}
