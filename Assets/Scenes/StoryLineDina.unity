@@ -2003,7 +2003,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d7720a4dcbba66341bbb75aefec2a20a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c9da75d1e8b583846a4428a1f51a1b9e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -27217,9 +27217,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 882112561}
+  - {fileID: 882112415}
   selectedCommands:
-  - {fileID: 882112590}
+  - {fileID: 882112413}
   variables: []
   description: 
   stepPause: 0
@@ -28531,7 +28531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 154
   indentLevel: 0
-  storyText: Why won't it turn on?!
+  storyText: Why won't it turned off suddenly?!
   description: 
   character: {fileID: 126333180}
   portrait: {fileID: 0}
@@ -28782,7 +28782,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 284
   indentLevel: 0
-  storyText: And now... My monitor just turned on by itself
+  storyText: And now... My monitor just turned on by itself.
   description: 
   character: {fileID: 126333180}
   portrait: {fileID: 0}
@@ -29031,7 +29031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 282
   indentLevel: 0
-  storyText: First, I can't control my TV
+  storyText: First, I can't control my TV.
   description: 
   character: {fileID: 126333180}
   portrait: {fileID: 0}
@@ -31037,7 +31037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 280
   indentLevel: 0
-  storyText: Wait, this is strange
+  storyText: Wait, this is strange.
   description: 
   character: {fileID: 126333180}
   portrait: {fileID: 0}

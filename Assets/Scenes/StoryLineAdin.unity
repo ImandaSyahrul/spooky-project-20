@@ -9375,7 +9375,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 286.69995, y: -2.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &320477290
@@ -26854,8 +26854,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 882112398}
-  selectedCommands: []
+  - {fileID: 882112359}
+  selectedCommands:
+  - {fileID: 882112380}
   variables: []
   description: 
   stepPause: 0
@@ -26895,7 +26896,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: "\u201CDid it just turn on by itself?\u201D"
+  storyText: Did it just turn on by itself?
   description: 
   character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
@@ -26969,7 +26970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: "\u201CIt\u2019s raining again?\u201D"
+  storyText: "It\u2019s raining again?"
   description: 
   character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
@@ -27023,8 +27024,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  storyText: "\u201CUgh, Hope this shitty old apartment don't get flood because of
-    this rainfall season.\u201D"
+  storyText: Ugh, Hope this shitty old apartment don't get flood because of this
+    rainfall season.
   description: 
   character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
@@ -27178,7 +27179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 95
   indentLevel: 0
-  storyText: "\u201CWhaaaaaat theee hell!\u201D"
+  storyText: Whaaaaaat theee hell!
   description: 
   character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
@@ -27238,7 +27239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 92
   indentLevel: 0
-  storyText: "\u201CWhat is this game?\u201D"
+  storyText: What is this game?
   description: 
   character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
@@ -27265,7 +27266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  storyText: "\u201CWhat the hell?!\u201D"
+  storyText: What the hell?!
   description: 
   character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
@@ -27308,7 +27309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 0
-  storyText: "\u201CAnd what the hell is this shitty kind of soap opera?!\u201D"
+  storyText: And what the hell is this shitty kind of soap opera?!
   description: 
   character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
@@ -27335,7 +27336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: "\u201CReally?\u201D"
+  storyText: Really?
   description: 
   character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
@@ -27505,7 +27506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 90
   indentLevel: 0
-  storyText: "\u201CDid it break or something?!\u201D"
+  storyText: Did it break or something?!
   description: 
   character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
@@ -27549,7 +27550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 89
   indentLevel: 0
-  storyText: "\u201CWhat the hell was that?\u201D"
+  storyText: What the hell was that?
   description: 
   character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
@@ -27576,7 +27577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 88
   indentLevel: 0
-  storyText: "\u201CIf this what you want!\u201D"
+  storyText: If this what you want!
   description: 
   character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
@@ -27603,7 +27604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 87
   indentLevel: 0
-  storyText: "\u201C****!\u201D"
+  storyText: '****!'
   description: 
   character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
@@ -27630,7 +27631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 86
   indentLevel: 0
-  storyText: "\u201CDon\u2019t mess up with me.\u201D"
+  storyText: "Don\u2019t mess up with me."
   description: 
   character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
@@ -27657,7 +27658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 85
   indentLevel: 0
-  storyText: "\u201CC'mon you cheap shitty remote, do your job properly!\u201D"
+  storyText: C'mon you cheap shitty remote, do your job properly!
   description: 
   character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
@@ -27956,7 +27957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: "\u201CWhat?!\u201D"
+  storyText: What?!
   description: 
   character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
@@ -30467,7 +30468,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &965991869
 Transform:
   m_ObjectHideFlags: 0
@@ -57470,7 +57471,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -122.099976}
+  m_AnchoredPosition: {x: 0, y: -122.09999}
   m_SizeDelta: {x: -206.9, y: -411.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1862186262
