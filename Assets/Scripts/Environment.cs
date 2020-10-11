@@ -22,6 +22,16 @@ public class Environment : MonoBehaviour
     {
         cgs[0].SetActive(false);
     }
-	#endregion
+
+    public void EnableSecondCG()
+    {
+        cgs[1].SetActive(true);
+    }
+
+    public void DisableSecondCG()
+    {
+        cgs[1].SetActive(false);
+    }
+    #endregion
 
 }
