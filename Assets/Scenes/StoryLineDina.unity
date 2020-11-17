@@ -27218,8 +27218,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 882112415}
-  selectedCommands:
-  - {fileID: 882112413}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -28531,7 +28530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 154
   indentLevel: 0
-  storyText: Why won't it turned off suddenly?!
+  storyText: Why it turned off suddenly?!
   description: 
   character: {fileID: 126333180}
   portrait: {fileID: 0}

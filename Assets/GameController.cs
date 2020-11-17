@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Fungus;
 public class GameController : MonoBehaviour
 {
     public GameObject buttonObject;
@@ -86,5 +87,6 @@ public class GameController : MonoBehaviour
         ChangeText();
         buttonObject.transform.localScale = idScale;
         jumpscarePanel.SetActive(false);
+        Flowchart.BroadcastFungusMessage("clear");
     }
 }
