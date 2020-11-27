@@ -39602,7 +39602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outline: {fileID: 1209559991}
-  jenisItemnya: 0
+  jenisItemnya: 1
   interactableMessage: 
 --- !u!65 &1209559993
 BoxCollider:
@@ -45273,7 +45273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outline: {fileID: 1384630690}
-  jenisItemnya: 0
+  jenisItemnya: 1
   interactableMessage: 
 --- !u!65 &1384630692
 BoxCollider:

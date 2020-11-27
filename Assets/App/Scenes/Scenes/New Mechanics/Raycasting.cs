@@ -30,10 +30,6 @@ public class Raycasting : MonoBehaviour
                             isclicked = true;
                             ClickItem(hit.transform.gameObject);
                         }
-                        else
-                        {
-                            HoverEnterItem(hit.transform.gameObject);
-                        }
                     }
                 }
         }
@@ -41,17 +37,6 @@ public class Raycasting : MonoBehaviour
 
     }
 
-    public void HoverEnterItem(GameObject objclicked)
-    {
-        objclicked.GetComponent<EPOOutline.Outlinable>().enabled = true;
-        //untuk activate layout.
-    }
-
-    public void HoverExitItem(GameObject objclicked)
-    {
-        objclicked.GetComponent<EPOOutline.Outlinable>().enabled = false;
-        //untuk diactive layout.
-    }
     public void ClickItem(GameObject objClicked)
     {
         
@@ -65,13 +50,14 @@ public class Raycasting : MonoBehaviour
                             managerQuest.QuestCheck(objClicked);
                             break;
                         }
-                        StartCoroutine(clickedObject());
+                        StartCoroutine(clickedObject(objClicked));
     }
 
-    public IEnumerator clickedObject()
+    public IEnumerator clickedObject(GameObject objClicked)
     {
         yield return new WaitForSeconds(2);
         isclicked = false;
+        objClicked.GetComponent<EPOOutline.Outlinable>().enabled = false;
     }
     /*
     public void CheckItem(GameObject objectClicked)

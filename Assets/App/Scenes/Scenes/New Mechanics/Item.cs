@@ -37,6 +37,7 @@ public class Item : MonoBehaviour
     {
         outline.enabled = false;
     }
+
     // Start is called before the first frame update
     void Start()
     {
