@@ -7,9 +7,10 @@ public class Environment : MonoBehaviour
     public GameObject rain;
     public GameObject[] cgs;
     public GameObject qteHUD;
+    public GameObject interactObjectUI;
 
-	#region methods
-	public void EnableRain()
+    #region methods
+    public void EnableRain()
     {
         rain.SetActive(true);
     }
@@ -43,5 +44,15 @@ public class Environment : MonoBehaviour
     public void DeactiveFirstQTE()
     {
         qteHUD.SetActive(false);
+    }
+
+    public void EnableRemoteGUI()
+    {
+        interactObjectUI.SetActive(true);
+    }
+
+    public void DisableRemoteGUI()
+    {
+        interactObjectUI.SetActive(false);
     }
 }

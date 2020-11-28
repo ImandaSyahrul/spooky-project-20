@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using Fungus;
 
 public enum remoteSiapa{
     Adin,
@@ -112,12 +113,14 @@ public class RemoteTV : MonoBehaviour
         Debug.Log("Click Bertambah menjadi "+ index);
         if(index==5)
         {
+
             //diganti sama Fungus
             Debug.Log("QuestCompleted");
             Matiin_TV();
         }
         else
         {
+            Flowchart.BroadcastFungusMessage("quest" + (index));
             StartCoroutine(TVGantiQuest());
         }
         /*
@@ -143,6 +146,7 @@ public class RemoteTV : MonoBehaviour
         Nyala_TV();
         yield return new WaitForSeconds(1);
         StartCoroutine(remoteGoUp());
+        
         yield return new WaitForSeconds(1.5f);
         validClick = true;
     }
@@ -231,5 +235,14 @@ public class RemoteTV : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void RemoteGoUp()
+    {
+        StartCoroutine(remoteGoUp());
+    }
+    public void RemoteGoDown()
+    {
+        StartCoroutine(remoteGoDown());
     }
 }
