@@ -27213,7 +27213,6 @@ GameObject:
   - component: {fileID: 882112376}
   - component: {fileID: 882112375}
   - component: {fileID: 882112369}
-  - component: {fileID: 882112363}
   - component: {fileID: 882112410}
   - component: {fileID: 882112411}
   - component: {fileID: 882112412}
@@ -27300,9 +27299,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 137.73624
-    y: 130.90411
-    width: 60
+    x: 131.63867
+    y: 158.9529
+    width: 80.4878
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27366,8 +27365,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 882112450}
-  selectedCommands: []
+  - {fileID: 882112398}
+  selectedCommands:
+  - {fileID: 882112407}
   variables: []
   description: 
   stepPause: 0
@@ -27420,36 +27420,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &882112363
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882112357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 100
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 872883105663851238}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 7de6eb6dff0b30a4187854e96fcdbc9a, type: 3}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &882112364
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -27587,7 +27557,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 872883105663851238}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 4f8e98565f9d48944a99bc0a6d4160d5, type: 3}
+  portrait: {fileID: 21300000, guid: bbfd699a9bf555048b96f9e77af095f9, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -27977,7 +27947,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 872883105663851238}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: c22b062d134555b42bf2d68ff6dbf73d, type: 3}
+  portrait: {fileID: 21300000, guid: bbfd699a9bf555048b96f9e77af095f9, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -28007,7 +27977,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 872883105663851238}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 5fb65f4cb24a77d458ee695d0bd935dc, type: 3}
+  portrait: {fileID: 21300000, guid: 4b35d400884029444a676183992db8fb, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 8443538104387463630}
@@ -28246,7 +28216,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 872883105663851238}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 4f8e98565f9d48944a99bc0a6d4160d5, type: 3}
+  portrait: {fileID: 21300000, guid: bbfd699a9bf555048b96f9e77af095f9, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -28317,9 +28287,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 246.20792
-    y: 130.74663
-    width: 60
+    x: 391.32996
+    y: 190.50276
+    width: 99.999985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28332,7 +28302,6 @@ MonoBehaviour:
   - {fileID: 882112435}
   - {fileID: 882112407}
   - {fileID: 882112406}
-  - {fileID: 882112363}
   - {fileID: 882112393}
   - {fileID: 882112392}
   - {fileID: 882112436}
@@ -28466,7 +28435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 77
   indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 3563f11b610d7c9469a362eb08fdf4c2, type: 3}
+  musicClip: {fileID: 8300000, guid: 8e35b81c44f0e4a468ea609d7464a3c0, type: 3}
   atTime: 0
   loop: 1
   fadeDuration: 1
@@ -28529,7 +28498,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 872883105663851238}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 4f8e98565f9d48944a99bc0a6d4160d5, type: 3}
+  portrait: {fileID: 21300000, guid: bbfd699a9bf555048b96f9e77af095f9, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -28629,7 +28598,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 872883105663851238}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 9da0c9574d09ebd4f8eda1b79a088aee, type: 3}
+  portrait: {fileID: 21300000, guid: bbfd699a9bf555048b96f9e77af095f9, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -29047,9 +29016,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 244.10071
-    y: 216.23602
-    width: 78.29267
+    x: 378.24713
+    y: 130.87012
+    width: 118.29267
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29308,7 +29277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 882112442}
   suppressBlockAutoSelect: 0
-  message: quest1
+  message: remoteFound
 --- !u!114 &882112442
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -29324,8 +29293,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 142.71538
-    y: 356.51297
-    width: 60
+    y: 355.29346
+    width: 89.02438
     height: 40
   tint: {r: 0.8962264, g: 0.82950187, b: 0.13950695, a: 1}
   useCustomTint: 1
@@ -29351,7 +29320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 882112446}
   suppressBlockAutoSelect: 0
-  message: quest2
+  message: quest1
 --- !u!114 &882112444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29410,13 +29379,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 262.71542
-    y: 355.29346
-    width: 60
+    x: 346.86182
+    y: 352.85443
+    width: 90.2439
     height: 40
   tint: {r: 0.8962264, g: 0.82950187, b: 0.13950695, a: 1}
   useCustomTint: 1
-  itemId: 136
+  itemId: 148
   blockName: Quest2
   description: 
   eventHandler: {fileID: 882112443}
@@ -29438,7 +29407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 882112450}
   suppressBlockAutoSelect: 0
-  message: quest3
+  message: quest2
 --- !u!114 &882112448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29497,13 +29466,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 374.91058
-    y: 357.73248
-    width: 60
+    x: 538.3252
+    y: 352.85443
+    width: 91.46341
     height: 40
   tint: {r: 0.8962264, g: 0.82950187, b: 0.13950695, a: 1}
   useCustomTint: 1
-  itemId: 136
+  itemId: 147
   blockName: Quest3
   description: 
   eventHandler: {fileID: 882112447}
@@ -29540,9 +29509,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 645.0141
-    y: 146.21722
-    width: 95.36584
+    x: 601.112
+    y: 142.55869
+    width: 135.36584
     height: 40
   tint: {r: 0.8584906, g: 0.5223834, b: 0.5223834, a: 1}
   useCustomTint: 1
@@ -68263,7 +68232,7 @@ PrefabInstance:
     - target: {fileID: 3757315702808951077, guid: 85f09d5dc18d2e64a8637132df05695e,
         type: 3}
       propertyPath: portraits.Array.size
-      value: 13
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3757315702808951077, guid: 85f09d5dc18d2e64a8637132df05695e,
         type: 3}
@@ -68298,6 +68267,30 @@ PrefabInstance:
       propertyPath: portraits.Array.data[12]
       value: 
       objectReference: {fileID: 21300000, guid: c22b062d134555b42bf2d68ff6dbf73d,
+        type: 3}
+    - target: {fileID: 3757315702808951077, guid: 85f09d5dc18d2e64a8637132df05695e,
+        type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: f7ff864722dfa3e4ba0694f28dcabb3b,
+        type: 3}
+    - target: {fileID: 3757315702808951077, guid: 85f09d5dc18d2e64a8637132df05695e,
+        type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: bbfd699a9bf555048b96f9e77af095f9,
+        type: 3}
+    - target: {fileID: 3757315702808951077, guid: 85f09d5dc18d2e64a8637132df05695e,
+        type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7a542eb0542756f4bbae552959c84423,
+        type: 3}
+    - target: {fileID: 3757315702808951077, guid: 85f09d5dc18d2e64a8637132df05695e,
+        type: 3}
+      propertyPath: portraits.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 4b35d400884029444a676183992db8fb,
         type: 3}
     - target: {fileID: 5503006700705784256, guid: 85f09d5dc18d2e64a8637132df05695e,
         type: 3}
