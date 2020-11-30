@@ -27300,7 +27300,6 @@ GameObject:
   - component: {fileID: 882112413}
   - component: {fileID: 882112412}
   - component: {fileID: 882112414}
-  - component: {fileID: 882112408}
   - component: {fileID: 882112420}
   - component: {fileID: 882112419}
   - component: {fileID: 882112404}
@@ -27311,7 +27310,6 @@ GameObject:
   - component: {fileID: 882112430}
   - component: {fileID: 882112428}
   - component: {fileID: 882112427}
-  - component: {fileID: 882112415}
   - component: {fileID: 882112406}
   - component: {fileID: 882112398}
   - component: {fileID: 882112367}
@@ -27378,7 +27376,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 281.91653
     y: 138.49185
-    width: 80.26315
+    width: 80.4878
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27445,11 +27443,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 460.6584, y: -244.75977}
+  scrollPos: {x: 389.02808, y: -150.70367}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7600002
+  zoom: 0.8200002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -27755,9 +27753,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 7.4078608
+    x: 6.188349
     y: 325.37958
-    width: 127.63155
+    width: 129.26828
     height: 40
   tint: {r: 1, g: 0.75964546, b: 0, a: 1}
   useCustomTint: 1
@@ -28305,9 +28303,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2.0833435
+    x: 0.8638315
     y: 415.7225
-    width: 138.15787
+    width: 136.58536
     height: 40
   tint: {r: 1, g: 0.8279878, b: 0, a: 1}
   useCustomTint: 1
@@ -28339,7 +28337,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -3.0671387
     y: 490.7271
-    width: 156.57892
+    width: 160.97559
     height: 40
   tint: {r: 1, g: 0.79136866, b: 0.023584902, a: 1}
   useCustomTint: 1
@@ -28573,21 +28571,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &882112408
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882112357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 882112414}
-  suppressBlockAutoSelect: 0
-  message: 
 --- !u!114 &882112409
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -28686,16 +28669,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 262.15857
-    y: 302.84082
-    width: 119.736824
+    x: 264.5976
+    y: 410.15796
+    width: 120.73169
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 125
   blockName: After Quest3
   description: 
-  eventHandler: {fileID: 882112408}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 882112470}
   - {fileID: 882112481}
@@ -28720,21 +28703,6 @@ MonoBehaviour:
   - {fileID: 882112486}
   - {fileID: 882112485}
   suppressAllAutoSelections: 0
---- !u!114 &882112415
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882112357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 882112463}
-  suppressBlockAutoSelect: 0
-  message: quest1
 --- !u!114 &882112416
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -28767,8 +28735,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 0.29804993
-    y: 565.28534
-    width: 146.05261
+    y: 566.5048
+    width: 148.78046
     height: 40
   tint: {r: 1, g: 0.79136866, b: 0.023584902, a: 1}
   useCustomTint: 1
@@ -29209,9 +29177,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -16.398792
-    y: 181.3289
-    width: 127.63155
+    x: 3.1133995
+    y: 206.93867
+    width: 132.92682
     height: 40
   tint: {r: 1, g: 0.4575472, b: 0.4575472, a: 1}
   useCustomTint: 1
@@ -29855,14 +29823,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 240.59576
     y: 228.05692
-    width: 156.57892
+    width: 158.53656
     height: 40
   tint: {r: 0.76708794, g: 0.94431216, b: 0.9622642, a: 1}
   useCustomTint: 1
   itemId: 145
   blockName: After Quest Remote
   description: 
-  eventHandler: {fileID: 882112415}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 882112468}
   - {fileID: 882112398}
