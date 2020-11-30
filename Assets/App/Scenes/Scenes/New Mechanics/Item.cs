@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using EPOOutline;
+using Fungus;
 public enum jenisItem{
     nonInteractable,
     Interactable,
@@ -49,5 +50,16 @@ public class Item : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnMouseDown()
+    {
+        if(jenisItemnya == jenisItem.Interactable)
+        Interact();
+    }
+
+    public void Interact()
+    {
+        Flowchart.BroadcastFungusMessage(interactableMessage);
     }
 }
