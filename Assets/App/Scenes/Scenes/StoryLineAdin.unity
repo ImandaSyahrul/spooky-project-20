@@ -10763,13 +10763,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359801850}
-  m_LocalRotation: {x: -0.046761654, y: 0.81517524, z: -0.06492695, w: -0.5736612}
-  m_LocalPosition: {x: -245.069, y: -225.27896, z: 60.77}
+  m_LocalRotation: {x: -0.015067209, y: 0.684787, z: -0.038078334, w: -0.7275918}
+  m_LocalPosition: {x: -246.679, y: -225.27896, z: 59.976}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1912275285}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 9.178, y: 250.262, z: -0.101}
+  m_LocalEulerAnglesHint: {x: 4.248, y: 273.546, z: 1.998}
 --- !u!114 &359801855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27520,15 +27520,28 @@ GameObject:
   - component: {fileID: 882112452}
   - component: {fileID: 882112451}
   - component: {fileID: 882112450}
-  - component: {fileID: 882112449}
-  - component: {fileID: 882112448}
   - component: {fileID: 882112447}
   - component: {fileID: 882112446}
-  - component: {fileID: 882112445}
   - component: {fileID: 882112444}
   - component: {fileID: 882112443}
+  - component: {fileID: 882112465}
+  - component: {fileID: 882112464}
+  - component: {fileID: 882112463}
+  - component: {fileID: 882112462}
+  - component: {fileID: 882112461}
+  - component: {fileID: 882112460}
+  - component: {fileID: 882112459}
+  - component: {fileID: 882112458}
+  - component: {fileID: 882112457}
+  - component: {fileID: 882112456}
+  - component: {fileID: 882112455}
+  - component: {fileID: 882112454}
+  - component: {fileID: 882112449}
+  - component: {fileID: 882112448}
+  - component: {fileID: 882112445}
+  - component: {fileID: 882112363}
   m_Layer: 0
-  m_Name: Flowchart Adin
+  m_Name: AdinStoryFlowchart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27563,8 +27576,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 130.41916
-    y: 158.9529
+    x: 426.76068
+    y: 108.952866
     width: 80.4878
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -27617,7 +27630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -58.3926, y: -36.133408}
+  scrollPos: {x: -41.31942, y: -61.74317}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 283
@@ -27629,7 +27642,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 882112359}
+  - {fileID: 882112452}
   selectedCommands: []
   variables: []
   description: 
@@ -27683,6 +27696,23 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &882112363
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 164
+  indentLevel: 0
+  targetObject: {fileID: 589921462}
+  methodName: ActiveFirstQTE
+  delay: 0
 --- !u!114 &882112364
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -28550,14 +28580,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 388.89093
-    y: 202.69789
-    width: 99.999985
+    x: 838.8904
+    y: 307.576
+    width: 175.60974
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 74
-  blockName: Interact2
+  blockName: Interact2-place holder
   description: 
   eventHandler: {fileID: 882112397}
   commandList:
@@ -29279,14 +29309,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 378.24713
-    y: 129.6506
-    width: 118.29267
+    x: 413.613
+    y: 577.21075
+    width: 130.4878
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 116
-  blockName: interactafter
+  blockName: After PC game
   description: 
   eventHandler: {fileID: 882112429}
   commandList:
@@ -29555,15 +29585,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 85.398315
-    y: 435.7813
+    x: 196.37396
+    y: 150.41545
     width: 89.02438
     height: 40
   tint: {r: 0.8962264, g: 0.82950187, b: 0.13950695, a: 1}
   useCustomTint: 1
   itemId: 136
   blockName: Quest1
-  description: 
+  description: first time remote
   eventHandler: {fileID: 882112441}
   commandList:
   - {fileID: 882112453}
@@ -29583,7 +29613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 882112446}
   suppressBlockAutoSelect: 0
-  message: quest1
+  message: quest2
 --- !u!114 &882112444
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -29610,24 +29640,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 882112357}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 145
+  itemId: 163
   indentLevel: 0
-  storyText: "I\u2019m turning you off, TV!"
-  description: 
-  character: {fileID: 0}
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 872883105663851238}
+  replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &882112446
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -29643,17 +29676,20 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 191.98367
-    y: 435.7813
+    y: 238.22037
     width: 90.2439
     height: 40
   tint: {r: 0.8962264, g: 0.82950187, b: 0.13950695, a: 1}
   useCustomTint: 1
   itemId: 148
   blockName: Quest2
-  description: 
+  description: Second time remote
   eventHandler: {fileID: 882112443}
   commandList:
-  - {fileID: 882112445}
+  - {fileID: 882112465}
+  - {fileID: 882112464}
+  - {fileID: 882112463}
+  - {fileID: 882112462}
   - {fileID: 882112444}
   suppressAllAutoSelections: 0
 --- !u!114 &882112447
@@ -29680,31 +29716,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 882112357}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 143
-  indentLevel: 0
-  targetObject: {fileID: 589921462}
-  methodName: EnableRemoteGUI
-  delay: 0
---- !u!114 &882112449
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882112357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 142
+  itemId: 162
   indentLevel: 0
-  storyText: "I\u2019m turning you off, TV!"
+  storyText: What is this game?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -29715,6 +29734,36 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &882112449
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 161
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 872883105663851238}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 5fb65f4cb24a77d458ee695d0bd935dc, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &882112450
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -29729,19 +29778,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 299.30075
-    y: 435.7813
+    x: 184.6665
+    y: 341.87897
     width: 91.46341
     height: 40
   tint: {r: 0.8962264, g: 0.82950187, b: 0.13950695, a: 1}
   useCustomTint: 1
   itemId: 147
   blockName: Quest3
-  description: 
+  description: Third time remote
   eventHandler: {fileID: 882112447}
   commandList:
-  - {fileID: 882112449}
-  - {fileID: 882112448}
+  - {fileID: 882112461}
+  - {fileID: 882112460}
+  - {fileID: 882112459}
   suppressAllAutoSelections: 0
 --- !u!114 &882112451
 MonoBehaviour:
@@ -29772,8 +29822,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 614.5264
-    y: 136.46112
+    x: 837.69635
+    y: 216.94897
     width: 135.36584
     height: 40
   tint: {r: 0.8584906, g: 0.5223834, b: 0.5223834, a: 1}
@@ -29801,6 +29851,312 @@ MonoBehaviour:
   storyText: "I\u2019m turning you off, TV!"
   description: 
   character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &882112454
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 160
+  indentLevel: 0
+  storyText: That's what the web say
+  description: 
+  character: {fileID: 339751089}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &882112455
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 159
+  indentLevel: 0
+  storyText: '"HEY! CHECKOUT THIS GAME"'
+  description: 
+  character: {fileID: 339751089}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &882112456
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 882112457}
+  suppressBlockAutoSelect: 0
+  message: interact computer
+--- !u!114 &882112457
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 185.22177
+    y: 505.6457
+    width: 92.68292
+    height: 40
+  tint: {r: 0.9528302, g: 0.9197912, b: 0.06741722, a: 1}
+  useCustomTint: 1
+  itemId: 157
+  blockName: Quest 5
+  description: PC ganes
+  eventHandler: {fileID: 882112456}
+  commandList:
+  - {fileID: 882112455}
+  - {fileID: 882112454}
+  - {fileID: 882112449}
+  - {fileID: 882112448}
+  - {fileID: 882112445}
+  - {fileID: 882112363}
+  suppressAllAutoSelections: 0
+--- !u!114 &882112458
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 186.44131
+    y: 425.15768
+    width: 91.46341
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 156
+  blockName: Quest4
+  description: Plug off the TV
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &882112459
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 155
+  indentLevel: 0
+  targetObject: {fileID: 589921462}
+  methodName: DisableRemoteGUI
+  delay: 0
+--- !u!114 &882112460
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 154
+  indentLevel: 0
+  storyText: If this what you want!
+  description: 
+  character: {fileID: 872883105663851238}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &882112461
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 153
+  indentLevel: 0
+  storyText: '****!'
+  description: 
+  character: {fileID: 872883105663851238}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &882112462
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 152
+  indentLevel: 0
+  storyText: I kept pressing the button but the TV wouldn't turn off
+  description: 
+  character: {fileID: 339751089}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &882112463
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 151
+  indentLevel: 0
+  storyText: "Don\u2019t mess up with me."
+  description: 
+  character: {fileID: 872883105663851238}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &882112464
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 150
+  indentLevel: 0
+  storyText: C'mon you cheap shitty remote, do your job properly!
+  description: 
+  character: {fileID: 872883105663851238}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &882112465
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882112357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 149
+  indentLevel: 0
+  storyText: What?!
+  description: 
+  character: {fileID: 872883105663851238}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -68997,6 +69353,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7393786874974154331, guid: eca2fe74fc34fda4fa2853b232a90c42,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393786874974154331, guid: eca2fe74fc34fda4fa2853b232a90c42,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eca2fe74fc34fda4fa2853b232a90c42, type: 3}
 --- !u!114 &4624290721322967891 stripped
@@ -69030,6 +69396,126 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6797392775162629235, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775162629235, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775162629235, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775162629235, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775233645796, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775233645796, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775233645796, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775233645796, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775280836102, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775280836102, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775280836102, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775280836102, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775332891249, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775332891249, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775332891249, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775332891249, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775755791853, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775755791853, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775755791853, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392775755791853, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392776257450960, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392776257450960, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392776257450960, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797392776257450960, guid: 8337f36673510ae41bcd3be3704479f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6797392776582339497, guid: 8337f36673510ae41bcd3be3704479f8,
         type: 3}
       propertyPath: m_Name
